@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "201559",
+      "name": "火热",
+      "font_class": "huore",
+      "unicode": "f01f3",
+      "unicode_decimal": 983539
+    },
+    {
+      "icon_id": "3996617",
+      "name": "返回",
+      "font_class": "fanhui",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "8406813",
+      "name": "赞",
+      "font_class": "zan",
+      "unicode": "e53b",
+      "unicode_decimal": 58683
+    }
+  ]
+}

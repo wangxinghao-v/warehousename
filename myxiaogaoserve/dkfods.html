@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body style="height:2000px;">
+        <button onclick="fun()">niajd</button>
+        <button onclick="funs()">df wse</button>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum incidunt accusamus doloremque fugiat consequatur expedita nisi eum quibusdam, numquam pariatur nostrum repellendus voluptatem voluptatum placeat! Inventore eaque quaerat totam iure.
+        At neque quam dolor quaerat, deleniti consequatur? Accusamus quos ipsam quo, placeat fugit obcaecati reiciendis omnis laborum? Quia rem et explicabo corrupti fuga in perspiciatis temporibus inventore consequuntur? Facere, vero?
+        <button onclick="fun()">niajd</button>
+        <button onclick="funs()">df wse</button>
+        Non ullam ex quod commodi necessitatibus maxime? Quaerat, eum aspernatur. Distinctio ipsa neque maxime, aperiam debitis dolor optio culpa nesciunt aspernatur adipisci! Cumque deserunt voluptates perferendis quos aperiam repellendus sunt.
+        Reiciendis, suscipit amet! Eligendi aspernatur praesentium at minima vitae nihil laudantium eum? Doloremque mollitia eum accusantium, impedit, fugit, deserunt porro accusamus officiis sapiente ut esse reprehenderit quae blanditiis. Nisi, molestiae.
+        Et non accusantium commodi eos quisquam porro illum praesentium ad, cum dolor, veritatis quia! Deserunt a deleniti consequatur asperiores provident non, accusantium nostrum tempora sint rem. Consectetur, odio quis! Repellat.
+        Molestias illum inventore praesentium omnis ullam, voluptas ratione rem voluptatem ab nulla commodi? Aliquam aut quas laborum provident fugit. Nisi deleniti cupiditate, recusandae sequi voluptates saepe odit numquam? Ratione, adipisci.
+        Error earum a praesentium, deserunt hic repudiandae odit ex libero nam illo, delectus reiciendis maxime, assumenda eligendi est sed laudantium! Accusamus exercitationem blanditiis perferendis id, doloremque suscipit tenetur inventore saepe?
+        Soluta ut, inventore eveniet est sapiente itaque odio. Nemo veritatis explicabo porro fugiat totam harum corrupti sint tenetur dolorum unde laudantium, nulla aliquam enim iste ex deserunt sequi a reiciendis.
+        <button onclick="fun()">niajd</button>
+        <button onclick="funs()">df wse</button>
+        Ullam, pariatur perferendis architecto dignissimos optio porro? Dolores nesciunt officiis pariatur nam ullam quam atque error cumque at ab quis laboriosam, ratione, amet sit molestias facilis optio sunt in distinctio?
+        Corporis, delectus nulla dicta magni eveniet eaque vero nam ad veritatis, repellendus mollitia maxime perspiciatis consequatur blanditiis id quod deserunt, ipsam debitis quidem. Numquam aliquid repellendus, ratione totam non doloremque?
+        Ex nemo non porro quaerat maxime dolor, ipsa optio tempora sequi. Deleniti, temporibus? Omnis dolorum dolores rerum deleniti quos fugiat officiis inventore consectetur, quia aut quasi earum enim porro rem!
+        Quos rem quisquam, ipsam enim doloremque molestias deleniti quod maiores corporis assumenda architecto libero est explicabo inventore nobis, ut aliquid non soluta pariatur culpa. Error cupiditate iusto quos corrupti autem?
+        Dolor harum architecto maxime velit dolore adipisci, impedit cum! Voluptatum non, et minima eum cum commodi unde hic, dolorem architecto, quo ducimus facilis vitae facere? Pariatur soluta quam laudantium ut.
+        <button onclick="fun()">niajd</button>
+        <button onclick="funs()">df wse</button>
+        Illo et similique minima fugiat qui, mollitia excepturi omnis sequi, temporibus distinctio quidem impedit incidunt quae libero quasi culpa vel consectetur ipsum doloremque quo assumenda in vero dicta blanditiis? Saepe.
+        Autem doloremque nemo velit quo doloribus dolorem excepturi fugiat ab unde molestias cupiditate perferendis eum quibusdam, laboriosam temporibus! Explicabo alias ipsa adipisci nulla quaerat quod doloribus dolorem repellat illum nemo!
+        Quos ea officia labore perspiciatis necessitatibus sit ratione consectetur error eveniet laborum porro nobis, tempore cum deleniti ullam corrupti dignissimos voluptatem, sunt aliquam eligendi cupiditate optio! Corrupti vero nihil sed?
+        Numquam perspiciatis cupiditate quibusdam porro, doloremque accusantium aliquid recusandae nemo, temporibus tempora ut, consequatur molestias eos adipisci. Repudiandae dolor alias illum ducimus quasi consequuntur, ad optio ipsum aliquam sed corrupti.
+        Neque expedita reprehenderit similique, dolorum nobis sunt hic consequatur esse iusto nisi atque? Facere unde, asperiores numquam illo autem similique ea alias officia libero maiores ipsum quos nam suscipit explicabo.
+        Veniam ea magnam doloremque expedita sequi. Harum fugiat ex repellendus nam, rerum nulla hic corporis nisi asperiores praesentium quis accusamus dignissimos autem deserunt tenetur. Cum placeat cumque sunt quod aspernatur.
+        Esse aliquam pariatur aperiam vel voluptatum laboriosam odio soluta sunt accusamus error nostrum aut reiciendis iure, tenetur ut, debitis quo. Eaque voluptates quidem aliquam adipisci vel saepe non ullam assumenda.
+    </div>
+   
+    <button onclick="funs()">df wse</button>
+    <script>
+        var a=0;
+        function fun(){
+            var scroLLtop=document.documentElement.scrollTop||document.body.scrollTop;
+            a=scroLLtop;
+             console.log(a);
+        }
+        function funs(){
+            window.scrollTo(0,a);
+        }
+       
+	
+
+	//定义时间
+	var now=new Date()
+	//获取当前时间
+	var year=now.getFullYear()
+	//获取月(0是一月)
+	var month=now.getMonth()+1
+	//获取日
+	var day=now.getDate()
+    var time=now.toLocaleTimeString().slice(2);
+   
+	//将时间放到页面上
+	console.log(`${year}-${month}-${day} ${time}`)
+
+
+    </script>
+</body>
+</html>

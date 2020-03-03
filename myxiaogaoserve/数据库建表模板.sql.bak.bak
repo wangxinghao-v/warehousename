@@ -1,0 +1,47 @@
+#1.先设置客户端连接服务器的编码为urf-8
+SET NAMES UTF8;
+#2.创建数据库前先丢要创建的数据库不然没法创建同名的数据库,创建的数据库为xh
+DROP DATABASE IF EXISTS xh;
+#3.创建数据库为xh 设置编码为utf-8
+CREATE DATABASE xh CHARSET=UTF8;
+#4.先进入创建好的数据库
+USE xh;
+  #建标签先把表清空
+TRUNCATE TABLE `xg-index`; 
+#5.创建好数据库后开始建表为junjun的表创建表头
+CREATE TABLE  junjun(
+#表头的名字 后为表头的数值类型 INT 为整型PRIMARY KEY主键约束
+  jid INT PRIMARY KEY,
+#name的值为字符串类型VARCHAR(8)为定长字符串最大为65535定长为8
+#UNIQUE为主键约束约束了jname列上不能插入重复的值，但允许插入null
+  jname VARCHAR(8)  UNIQUE,
+#男女列为bool值1男2女
+  jsex BOOL,
+#家庭地址是个字符串
+  jdeptid VARCHAR(16),
+#出年月时期型
+  jdata DATETIME,
+#电话号码存成定长字符串的形式
+  jphone CHAR(11),
+#个人及简ids最后一个不能加逗号不然报错
+  jids VARCHAR(100)
+);
+#插入数据
+INSERT INTO junjun VALUES(1,'王邢浩',1,'河南省项城是','1995-6-17:16:20:16','18838234109','出生仔一个偏远的小村庄，身高185lm，男，体格中等');
+
+SET NAMES UTF8;
+DROP DATABASE IF EXISTS xiaogao;
+CREATE DATABASE xiaogao CHARSET=UTF8;
+USE xiaogao;
+ #建标签先把表清空
+TRUNCATE TABLE `xg-index`; 
+CREATE TABLE  xg-index(
+	#id
+	xid INT PRIMARY KEY,
+	#标题
+	xtitle VARCHAR(128) DEFAULT NULL,
+	#作者 有可能是笔名
+	xauthor varchar(64) DEFAULT NULL,
+	#集赞数有可能是评论数
+
+)
