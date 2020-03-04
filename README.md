@@ -15,9 +15,11 @@
 2.在main.js中定义地址
 
 ![image](https://github.com/wangxinghao-v/warehousename/blob/master/img/crossdomain1.jpg)
+
 3.在组件中用axis调用这个地址数据时
 
 ![image](https://github.com/wangxinghao-v/warehousename/blob/master/img/crossdomain2.jpg)
+
 
 
 
